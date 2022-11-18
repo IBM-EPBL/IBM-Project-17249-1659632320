@@ -1,7 +1,8 @@
 window.watsonAssistantChatOptions = {
-    integrationID: "60aa23f1-dfdf-47b5-8a9d-ecb63cd36e35", // The ID of this integration.
-    region: "us-south", // The region your integration is hosted in.
-    serviceInstanceID: "5a23a371-b01d-42c5-beff-b0fb3dc03a88", // The ID of your service instance.
+  integrationID: "60aa23f1-dfdf-47b5-8a9d-ecb63cd36e35", // The ID of this integration.
+  region: "us-south", // The region your integration is hosted in.
+  serviceInstanceID: "5a23a371-b01d-42c5-beff-b0fb3dc03a88", // The ID of your service instance.
+
     onLoad: function(instance) { 
 
         instance.updateCSSVariables({
@@ -19,4 +20,3 @@ window.watsonAssistantChatOptions = {
     t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
     document.head.appendChild(t);
   });
-
